@@ -1,0 +1,106 @@
+body{
+    background-color:burlywood;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+
+.vertical_TL{
+    width: 500px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.white_stripes{
+    width: 400px;
+    height: 70px;
+    background-color: #fff;
+}
+.left,.right{
+    display: block;
+}
+
+.traffic_light_left{
+    width: 100px;
+    height: 400px;
+    background-color: #000;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:1.5rem;
+    border-radius: 30px;
+}
+.traffic_light_right{
+    width: 100px;
+    height: 400px;
+    background-color: #000;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:1.5rem;
+    border-radius: 30px;
+}
+
+.Cross_button{
+margin-left: 15px;
+margin-bottom: 15px;
+}
+.Cross_Top_button{
+    position: absolute;
+    left:1130px;
+    top:35px;
+}
+.Cross_Bottom_button{
+    position: absolute;
+    left:1130px;
+    bottom:35px;
+}
+
+.traffic_light{
+    width: 400px;
+    height: 100px;
+    background-color: #000;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:1.5rem;
+    border-radius: 30px;
+}
+.left_button{
+    position: absolute;
+}
+.lights{
+    height: 50px;
+    width: 50px;
+    border:none;
+    border-radius: 50%;
+}
+.red{
+    background-color: #2e2929;
+}
+.yellow{
+    background-color: #2e2929;
+}
+.green{
+    background-color: #2e2929;
+}
+
+.red.active{
+    background-color:red;
+}
+.yellow.active{
+    background-color: orange;
+}
+.green.active{
+    background-color: green;
+}
+.warning{
+    margin: 0;
+}
